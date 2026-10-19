@@ -1,0 +1,25 @@
+# Entornos Virtuales (Ignorar carpeta pesada de librerías locales)
+venv/
+ENV/
+env/
+.venv/
+
+# Caché de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Archivos de configuración del entorno de desarrollo (VS Code)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Archivos de salida locales o volcados de datos temporales
+*.log
+salida_terminal.txt
